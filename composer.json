@@ -1,0 +1,10 @@
+{
+    "name": "mixof777/parser",
+    "description": "test project",
+    "type": "project",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "PHPOffice/PHPExcel": "1.8.x-dev"
+    }
+}

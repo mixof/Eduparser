@@ -1,0 +1,39 @@
+http://seo-proxies.com/
+http://www.blackhatworld.com/blackhat-seo/f112-proxies-sale/
+
+
+http://chriszarate.github.io/bookmarkleter/
+
+// http://spys.ru/proxys/US/
+
+
+$proxies=new Array();
+jQuery(".spy14").each(function()
+{
+	jQuery(this).find("script").remove();
+	$proxy=jQuery(this).text();
+	if($proxy.length > 14 && $proxy.indexOf(":") > -1) 	$proxies.push($proxy);
+})
+$text=jQuery("<textarea />").prependTo("body").css("height", "300px");
+$text.html($proxies.join("\n"));
+
+
+
+
+
+// http://proxylist.hidemyass.com/search-1304501#listable
+
+$proxies=new Array();
+jQuery("td").each(function()
+{
+	jQuery(this).find(":hidden").remove();
+})
+jQuery(".proxy-results tr").each(function()
+{
+	$proxy=jQuery(this).find("td:eq(1)").text();
+	$port=jQuery(this).find("td:eq(2)").text().trim();
+	if($proxy.length > 10 && $proxy.indexOf(".") > -1) 	$proxies.push($proxy+":"+$port);
+})
+$text=jQuery("<textarea />").prependTo(".europa-dip-bar").css("height", "300px");
+$text.html($proxies.join("\n"));
+

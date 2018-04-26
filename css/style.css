@@ -1,0 +1,76 @@
+ #pages{
+    display:none;
+    clear: left;
+    margin-top:20px;
+    }
+    
+    span{
+    font-weight: bold;
+    }
+    #incorrect{
+      color:red;
+    }
+    #correct{
+      color:green;
+    }
+    button{
+       background-color: #adb9bf; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+     border-radius: 12px; 
+    }
+    button:hover{
+      background-color: #9da6ab; 
+    }
+    button:focus { outline: none; }
+    
+    input{
+      padding:7px;
+    }
+    .inline{
+      display:inline-block;     
+    }
+    #preloader
+    {
+
+      margin-left:20px;
+      vertical-align:bottom;
+      height:46px;
+    }
+    .validation
+    {
+        color: #aa081c;
+    }
+
+    .row{
+        padding: 5px;
+    }
+
+    .row input{
+        width: 100%;
+    }
+
+    .login{
+
+    }
+
+    .login form{
+        padding: 50px;
+        background-color: #f7f7f7;
+        border-radius: 12px;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+
+
+
+
+    

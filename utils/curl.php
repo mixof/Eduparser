@@ -660,6 +660,10 @@ function getSingle($url, $use_proxy = false, $debug = false,$proxyType = CURLPRO
 			fclose($fh);
 		}
 	}
+    $oldbytes=file_get_contents(__DIR__."/loadbytes.dat");
+	$oldbytes=intval($oldbytes);
+	$newbytes=$oldbytes+strlen($data);
+    file_put_contents(__DIR__."/loadbytes.dat", $newbytes, LOCK_EX);
 //	print "*********** DATA ***********\n".$data."\n*********** DATA END ***********\n";	
 	
 	return $data;
